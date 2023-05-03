@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../static/img/health.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    html,
+    body,
+    header,
+    #intro {
+    height: 100%;
+    }
+    img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+    </style>
+<title>LIME</title>
+</head>
+<body>
+  <header>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	  <a class="navbar-brand" href="/main">LOW LIGHT IMAGE ENHANCEMENT</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	  </button>
+	  
+      <a style="margin-left: 750px;" class="navbar-brand" href="/login">Sign-Out</a>
+	</nav>
+	<div id="intro" class="container-fluid view ">
+        <h1 class="text-center text-capitalize pt-5">Low Light Image Enhancement via Gamma Function and DL!</h1>
+        
+        <hr class="w-75 mx-auto pt-5">
+	<div class="col-lg-6 col-md-6 col-12">
+    <form action="/home" method="post" enctype="multipart/form-data">
+		<br>
+		<br>
+        <div class="form-control" style="margin-left: 350px;">
+       		<input type="file" name="fileToUpload" id="fileToUpload">
+       	</div>
+		   <br>
+		   <br>
+
+       	<div >
+        	<input style="margin-left: 550px;" class="btn btn-danger" type="submit" value="Upload Image" name="submit">
+        </div>
+    </form>
+    <div>
+</body>
+</html>
